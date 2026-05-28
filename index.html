@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Your Favourite Music</title>
+  <link rel="stylesheet" href="syle.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="songList">
+      <h1>Best of NCS - No Copyright Sounds</h1>
+      <div class="songItemContainer">
+
+        
+        <div class="songItem">
+          <img src="cover1.jpg" alt="1">
+          <span class="songName">Shape of You</span>
+          <span class="songlistplay">
+            <span class="timestamp">04:24
+              <i id="1" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="cover2.jpg" alt="2">
+          <span class="songName">Blinding Lights</span>
+          <span class="songlistplay">
+            <span class="timestamp">03:20
+              <i id="2" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="cover3.jpg" alt="3">
+          <span class="songName">Rolling in the Deep</span>
+          <span class="songlistplay">
+            <span class="timestamp">03:45
+              <i id="3" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="cover4.jpg" alt="4">
+          <span class="songName">Radioactive</span>
+          <span class="songlistplay">
+            <span class="timestamp">04:10
+              <i id="4" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="cover5.jpg" alt="5">
+          <span class="songName">Bad Guy</span>
+          <span class="songlistplay">
+            <span class="timestamp">03:14
+              <i id="5" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="cover6.jpg" alt="6">
+          <span class="songName">Uptown Funk</span>
+          <span class="songlistplay">
+            <span class="timestamp">04:30
+              <i id="6" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="cover7.jpg" alt="7">
+          <span class="songName">Counting Stars</span>
+          <span class="songlistplay">
+            <span class="timestamp">04:17
+              <i id="7" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="cover8.jpg" alt="8">
+          <span class="songName">Someone Like You</span>
+          <span class="songlistplay">
+            <span class="timestamp">04:55
+              <i id="8" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="cover9.jpg" alt="9">
+          <span class="songName">Viva La Vida</span>
+          <span class="songlistplay">
+            <span class="timestamp">04:02
+              <i id="9" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="cover10.jpg" alt="10">
+          <span class="songName">Salam-e-ishq</span>
+          <span class="songlistplay">
+            <span class="timestamp">05:34
+              <i id="10" class="fa-regular songItemPlay fa-circle-play"></i>
+            </span>
+          </span>
+        </div>
+
+      </div>
+    </div>
+    <div class="songBanner"></div>
+  </div>
+
+  <div class="bottom">
+    <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+    <div class="icons">
+      <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+      <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+      <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
+    </div>
+    <div class="songInfo">
+      <img src="playing.gif" width="42px" alt="" id="gif">
+      <span id="masterSongName">Shape of You</span> 
+    </div>
+  </div>
+
+  <script src="spot.js"></script>
+</body>
+</html>
